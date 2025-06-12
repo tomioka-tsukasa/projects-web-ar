@@ -1,0 +1,7 @@
+{
+  "set styles vanilla extract": {
+    "prefix": "set-styles-vanilla-extract",
+    "body": ["import { style } from '@vanilla-extract/css'\nimport { rvw } from '@/styles/responsive.css'\n\nexport const root = style([\n])\n"],
+    "description": "Vanilla Extract スタイルファイル宣言"
+  }
+}

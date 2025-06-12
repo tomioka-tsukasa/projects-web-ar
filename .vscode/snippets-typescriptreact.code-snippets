@@ -1,0 +1,12 @@
+{
+  "set component": {
+    "prefix": "set-component",
+    "body": ["import * as styles from './index.css.ts'\n\ninterface Props {\n  a?: unknown,\n}\n\nexport const $1 = ({\n  a\n}: Props) => {\n  return <>\n    <div className={`${styles.root}`}>\n    </div>\n  </>\n}\n"],
+    "description": "コンポーネントのルート宣言",
+  },
+  "set class": {
+    "prefix": "set-class",
+    "body": ["className={`${styles.$1}`}"],
+    "description": "class設定",
+  },
+}
